@@ -1,5 +1,17 @@
 function findProductPrice(products, name) {
   // Your code here
+  //linear
+  //   for (let i = 0; i < products.length; i++) {
+  //     if (name === products[i].name) {
+  //       return products[i].price;
+  //     }
+  //   }
+  //   return -1;
+
+  // binary จำไมไ่ด้
+  let low = 0;
+  let high = products.length + 1;
+  let mid = 1;
 }
 
 // Test case
